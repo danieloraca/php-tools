@@ -6,6 +6,8 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
+
+
     /**
      * A basic test example.
      *
@@ -14,5 +16,8 @@ class ExampleTest extends TestCase
     public function test_example()
     {
         $this->assertTrue(true);
-    }
-}
+
+    }//end test_example()
+
+
+}//end class

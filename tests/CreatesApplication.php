@@ -6,6 +6,8 @@ use Illuminate\Contracts\Console\Kernel;
 
 trait CreatesApplication
 {
+
+
     /**
      * Creates the application.
      *
@@ -18,5 +20,8 @@ trait CreatesApplication
         $app->make(Kernel::class)->bootstrap();
 
         return $app;
-    }
+
+    }//end createApplication()
+
+
 }
