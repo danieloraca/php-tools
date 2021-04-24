@@ -6,3 +6,5 @@ grumphp:
         - /^src\/(.*)/
       ruleset:
         - ./phpmd.xml
+    psalm:
+      config: psalm.xml
